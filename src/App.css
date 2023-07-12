@@ -1,3 +1,10 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  /* color: #0202a0; */
+  /* text-transform: capitalize; */
+}
+
 .App {
   text-align: center;
 }

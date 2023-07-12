@@ -1,0 +1,71 @@
+.custom-btn {
+    border-style: none;
+    outline:none!important;
+    cursor: pointer;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+}
+
+.popup-container{
+    width: 100%;
+    height: 100%;
+}
+
+.topic {
+    border-style: none;
+    outline:none!important;
+    text-transform: capitalize;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.custom-para {
+    color: purple;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+
+.modal {
+    font-size: 12px;
+    background-image: linear-gradient(to, right, rgb(31, 85, 103), #000000);
+    padding: 5%;
+    background-color: #100e2e;
+    color: #ffffff;
+    width: 65vw;
+    height: 70vh;
+    border-radius: 15px;
+}
+.modal > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 38px;
+    text-align: center;
+    padding: 5px;
+}
+.modal > .content {
+    width: 100%;
+    padding: 10px 5px;
+    color: #ffffff;
+    font-size: xx-large;
+}
+    .modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+}
+.modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+}
